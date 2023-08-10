@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.app {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.task-list {
+  margin-top: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.task button {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  color: #e74c3c;
+  cursor: pointer;
+}
